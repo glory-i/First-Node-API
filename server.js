@@ -49,8 +49,8 @@ app.use('/api/v1/Product', productRoute);
 
 
 app.get('/', (req,res)=>{
-    throw new Error('fugazi error');
-    //res.send('Hello YOU BEAUTFUL PROGRAMMER')
+    //throw new Error('fugazi error');
+    res.send('Hello YOU BEAUTFUL PROGRAMMER')
 })
 
 
